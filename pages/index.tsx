@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -19,7 +20,9 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           Get started by visiting GraphiQL at{' '}
-          <a href="/api/graphql">/api/graphql</a>
+          <Link href="/api/graphql">
+            <a>/api/graphql</a>
+          </Link>
           <br />
           Edit the GraphQL handler at <code className={styles.code}>pages/api/graphql.ts</code>
         </p>
