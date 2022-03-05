@@ -119,6 +119,11 @@
   color: #e535ab
 }
 
+.lead {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

@@ -18,6 +18,10 @@ const Home: NextPage = () => {
           <br/><span className={styles.nextjs}>Next.js</span> <span className={styles.graphql}>GraphQL</span> Server
         </h1>
 
+        <p className={styles.lead}>
+          Star the <Link href="https://github.com/zaiste/next-graphql-server"><a>next-graphql-server</a></Link> library at GitHub
+        </p>
+
         <p className={styles.description}>
           Get started by visiting GraphiQL at{' '}
           <Link href="/api/graphql">
