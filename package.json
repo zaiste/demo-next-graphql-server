@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "graphql": "^16.3.0",
+    "graphql": "^16.8.1",
     "next": "12.1.0",
     "next-graphql-server": "^0.1.0",
     "react": "17.0.2",
